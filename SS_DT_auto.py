@@ -74,7 +74,7 @@ sheet_columns_dict = get_column_ids(sheet_id)
 column = ss.Sheets.get_sheet(4855853141518212, column_ids = [sheet_columns_dict.get('Primary Column')])
 
 attachments = get_files()
-comment = '< email alert > : QC has been completed and files are staged for transfer at: ' + get_dt_dir()
+comment = '@acemory@wustl.edu : QC has been completed and files are staged for transfer at: ' + get_dt_dir()
 
 # Iterate over that sheet object - rows
 
